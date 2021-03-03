@@ -1,0 +1,15 @@
+{
+  "name": "bb",
+  "version": "1.0.0",
+  "description": "BackBase Assignment to save Customers money by minimising their overdraft fees",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sian Kearley",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^5.3.2",
+    "node": "^15.10.0"
+  }
+}
