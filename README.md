@@ -17,11 +17,13 @@ Whilst inside your project folder
 
 cd desktop/"file name" 
 
-Install Node and csv-parser
+Install Node, csv-parser and csv-writer
 
 $ npm i node
 
 $ npm install csv-parser 
+
+npm i -s csv-writer
 ```
 
 Once the prerequisits are installed on the package you can use the commented console.log's to test where the data is being saved and their types
@@ -46,7 +48,7 @@ and change the "/customer-1234567-ledger.csv" to the name of the file you are lo
 
 The code should import the file into an array of objects and array of the transactions of the current and savings accounts.
 
-functions to withdraw and deposit into accounts have been included but at this point in time I was unable to sum the values of the account arrays, I used the following snippits but for some reason my code would not compile as expected.
+Functions to withdraw and deposit into accounts have been included, the sum of these arrays were produced and used to create a transfer function. The transactions array will be updated when a transfer is made and then that array is printed onto a csv file.
 
 ```
 Example 
@@ -64,7 +66,7 @@ Siân Kearley 2021
 ## Acknowledgments
 
 * Thanks to BackBase for giving me the opportunity to attempt this task, it was really fun and taught me where my weakness' are and what I need to work on further. Whilst I was not able to meet all the requirements for the task I will continue to work on it.
-* After this has been submitted I will be continuing with the project by including a simple UI where the bank can upload their csv files, creating a database to hold the data and, after more research, complete the main objectives of the task which I unfortunately didn't succeed with
+* After this has been submitted I will be continuing with the project by including a simple UI where the bank can upload their csv files, creating a database to hold the data and, after more research, will refactor my code and look for a more elegant way to meet the aspects of the brief more accurately. 
 
 
 
