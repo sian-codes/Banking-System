@@ -24,8 +24,6 @@ $ npm i node
 $ npm install csv-parser 
 ```
 
-### Installing
-
 Once the prerequisits are installed on the package you can use the commented console.log's to test where the data is being saved and their types
 
 ```
@@ -66,7 +64,7 @@ Siân Kearley 2021
 ## Acknowledgments
 
 * Thanks to BackBase for giving me the opportunity to attempt this task, it was really fun and taught me where my weakness' are and what I need to work on further. Whilst I was not able to meet all the requirements for the task I will continue to work on it.
-* After this has been submitted I will be conitnuing with the project by including a simple UI where the bank can upload their csv files, creating a database to hold the data and, after more research, complete the main objectives of the task which I unfortunately didn't succeed with
+* After this has been submitted I will be continuing with the project by including a simple UI where the bank can upload their csv files, creating a database to hold the data and, after more research, complete the main objectives of the task which I unfortunately didn't succeed with
 
 
 
