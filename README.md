@@ -17,13 +17,13 @@ Whilst inside your project folder
 
 cd desktop/"file name" 
 
-Install Node, csv-parser and csv-writer
+Install Node, csv-parser and fast-csv
 
 $ npm i node
 
 $ npm install csv-parser 
 
-npm i -s csv-writer
+$ npm i -s fast-csv
 ```
 
 Once the prerequisits are installed on the package you can use the commented console.log's to test where the data is being saved and their types
