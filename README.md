@@ -37,20 +37,31 @@ console.log(currentTrans);
 
 ```
 
-This example should bring up the array currentTrans & savingsTrans:
+This example should bring up the array currentTrans & savingsTrans(yellow):
 
 ![Screenshot](/Screenshots/funds.png)
 
-This example
+```
+//console.table(results);
+```
 
 This example brings up the object array created by parsing the csv file:
 
-![alt text](https://app.photobucket.com/u/sian-codes/a/e12cd26f-5231-4ac4-9a34-468bee0b1f20/p/f278417d-b74c-460b-ab3f-eda8eaf51d35)
+![Screenshot](/Screenshots/csvArrayObjects.png)
 
-This shows the CurrentAccount and SavingsAccounts combined balances array:
+```
+// console.log(currentTrans);
+// console.log(savingsTrans);
+```
 
-![alt text](https://app.photobucket.com/u/sian-codes/a/e12cd26f-5231-4ac4-9a34-468bee0b1f20/p/62f6a856-a648-41d6-bf46-01699175322a)
+This shows the CurrentAccount and SavingsAccounts combined balances array(pink):
 
+![Screenshot](/Screenshots/funds.png)
+
+```
+// console.log(currentBalance.toFixed(2));
+// console.log(savingBalance.toFixed(2));
+```
 
 Functions to withdraw and deposit into accounts have been included, the sum of these arrays were produced and used to create a transfer function. The transactions array will be updated when a transfer is made and then that array is printed onto a csv file.
 
@@ -72,13 +83,13 @@ The code should import the file into an array of objects and array of the transa
 
 CSV Import:
 
-![alt text](https://app.photobucket.com/u/sian-codes/a/e12cd26f-5231-4ac4-9a34-468bee0b1f20/p/f39c284c-ae22-400a-a2d3-3c42d990c4fc)
+![Screenshot](/Screenshots/INPUTCSV.png)
 
 When the functions are completed you can then print out the CSV of the updated Array. 
 
 This should bring up the CSV file of the transaction arrays:
 
-![alt text](https://app.photobucket.com/u/sian-codes/a/e12cd26f-5231-4ac4-9a34-468bee0b1f20/p/8ea55933-9d5a-41da-a696-058056b4c0da)
+![Screenshot](/Screenshots/OUTCSV.png)
 
 
 
