@@ -24,9 +24,13 @@ $ npm i node
 $ npm install csv-parser 
 
 $ npm i -s fast-csv
-```
 
-Once the prerequisits are installed on the package you can use the commented console.log's to test where the data is being saved and their types
+```
+### Running the tests
+
+## console.log's Testing: 
+
+Once the prerequisits are installed on the package you can use the commented console.log's to test where the data is being saved and if the function works
 
 ```
 console.log(currentTrans); 
@@ -35,24 +39,48 @@ console.log(currentTrans);
 
 This example should bring up the array currentTrans
 
-## Running the tests
+![alt text](https://app.photobucket.com/u/sian-codes/a/e12cd26f-5231-4ac4-9a34-468bee0b1f20/p/ef30b7a0-417a-4034-94ac-bd026f138c34)
 
-You will need to save the test files into the folder testData.
-Once this has been done you will need to go into the code, locate the createReadStream line :
+This example
 
-```
-fs.createReadStream(__dirname+'/testData/customer-1234567-ledger.csv').pipe(parser)
-```
+This example brings up the object array created by parsing the csv file:
 
-and change the "/customer-1234567-ledger.csv" to the name of the file you are looking to import
+![alt text](https://app.photobucket.com/u/sian-codes/a/e12cd26f-5231-4ac4-9a34-468bee0b1f20/p/f278417d-b74c-460b-ab3f-eda8eaf51d35)
 
-The code should import the file into an array of objects and array of the transactions of the current and savings accounts.
+This shows the CurrentAccount and SavingsAccounts combined balances array:
+
+![alt text](https://app.photobucket.com/u/sian-codes/a/e12cd26f-5231-4ac4-9a34-468bee0b1f20/p/62f6a856-a648-41d6-bf46-01699175322a)
+
 
 Functions to withdraw and deposit into accounts have been included, the sum of these arrays were produced and used to create a transfer function. The transactions array will be updated when a transfer is made and then that array is printed onto a csv file.
 
 ```
 Example 
 ```
+##Testing with CSV Files
+
+You will need to save the test files into the folder "/testData".
+Once this has been done you will need to go into the code, locate the createReadStream line :
+
+```
+fs.createReadStream(__dirname+'/testData/customer-1234567-ledger.csv').pipe(parser)
+```
+
+and change the "/customer-1234567-ledger.csv" to the name of the file you are looking to import.
+
+The code should import the file into an array of objects and array of the transactions of the current and savings accounts.
+
+CSV Import:
+
+![alt text](https://app.photobucket.com/u/sian-codes/a/e12cd26f-5231-4ac4-9a34-468bee0b1f20/p/f39c284c-ae22-400a-a2d3-3c42d990c4fc)
+
+When the functions are completed you can then print out the CSV of the updated Array. 
+
+This should bring up the CSV file of the transaction arrays:
+
+![alt text](https://app.photobucket.com/u/sian-codes/a/e12cd26f-5231-4ac4-9a34-468bee0b1f20/p/8ea55933-9d5a-41da-a696-058056b4c0da)
+
+
 
 ## Version
 
