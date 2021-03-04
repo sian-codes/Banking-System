@@ -37,9 +37,9 @@ console.log(currentTrans);
 
 ```
 
-This example should bring up the array currentTrans
+This example should bring up the array currentTrans & savingsTrans:
 
-![alt text](https://app.photobucket.com/u/sian-codes/a/e12cd26f-5231-4ac4-9a34-468bee0b1f20/p/ef30b7a0-417a-4034-94ac-bd026f138c34)
+![Screenshot](/Screenshots/funds.png)
 
 This example
 
