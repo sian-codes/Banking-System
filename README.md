@@ -1,6 +1,6 @@
-# BackBase Task
+# Task
 
-BaseBase Task - To create a solution that automatically transfers funds from a customers savings account to their current account to minimise overdraft fees
+Task from BackBase - To create a solution that automatically transfers funds from a customers savings account to their current account to minimise overdraft fees
 
 ## Getting Started
 
