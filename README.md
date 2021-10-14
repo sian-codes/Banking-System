@@ -1,4 +1,4 @@
-# BackBase Submission
+# BackBase Task
 
 BaseBase Task - To create a solution that automatically transfers funds from a customers savings account to their current account to minimise overdraft fees
 
@@ -104,8 +104,8 @@ Siân Kearley 2021
 
 ## Acknowledgments
 
-* Thanks to BackBase for giving me the opportunity to attempt this task, it was really fun and taught me where my weakness' are and what I need to work on further. Whilst I was not able to meet all the requirements for the task I will continue to work on it.
-* After this has been submitted I will be continuing with the project by including a simple UI where the bank can upload their csv files, creating a database to hold the data and, after more research, will refactor my code and look for a more elegant way to meet the aspects of the brief more accurately. 
+* I will be continuing with the project by including a simple UI where the bank can upload their csv files, creating a database to hold the data and, after more research, will refactor my code and look for a more elegant way to meet the aspects of the brief more accurately. 
+* Next Task - Creating the automatic transfer
 
 
 
